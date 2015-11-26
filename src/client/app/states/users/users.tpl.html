@@ -1,0 +1,10 @@
+<md-list ng-cloak flex>
+	<md-progress-circular 
+		md-mode="{{usCtrl.loadingStatus}}" 
+		md-diameter="30"
+		ng-if="usCtrl.loading">
+	</md-progress-circular>
+	<md-list-item ng-repeat="user in usCtrl.users">
+		<user user-data="user" flex></user>
+	</md-list-item>
+</md-list>

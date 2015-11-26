@@ -1,0 +1,9 @@
+*.log
+.DS_Store
+node_modules
+bower_components
+dist
+build/*
+/.idea/
+.tmp
+.nvmrc

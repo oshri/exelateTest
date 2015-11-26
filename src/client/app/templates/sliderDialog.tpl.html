@@ -1,0 +1,18 @@
+<md-dialog aria-label="Terms"  ng-cloak lang-dir-rtl-he>
+	<md-toolbar>
+	    <div class="md-toolbar-tools">
+	    	<md-button 	class="md-icon-button md-accent close"
+	    				aria-label="Close" 
+	    				ng-click="ssdCtrl.cancel()">
+        		<md-icon md-svg-src="images/close.svg"></md-icon>
+    		</md-button>
+	    </div>
+	</md-toolbar>
+	<md-dialog-content style="max-width:800px;max-height:810px;">
+		<div class="md-dialog-content">
+	  		<slide 	slides="ssdCtrl.slides" 
+					slide-index="{{ssdCtrl.slideIndex}}"
+					class="slider">
+			</slide>
+		</md-dialog-content>
+</md-dialog>

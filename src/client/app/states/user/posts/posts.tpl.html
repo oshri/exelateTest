@@ -1,0 +1,22 @@
+<md-progress-circular 
+		md-mode="{{posCtrl.loadingStatus}}" 
+		md-diameter="30"
+		ng-if="posCtrl.loading">
+</md-progress-circular>
+<md-list ng-cloak flex class="posts">
+	<md-list-item ng-repeat="post in posCtrl.posts" class="post">
+		<div layout="column" layout-align="space-around start">
+			<div flex class="auther">
+				<span>Author:</span>
+				{{::uCtrl.fullName}}
+			</div>
+			<div flex class="title">
+				<span>Title:</span>
+				{{::post.title}}
+			</div>
+			<p flex>
+				{{::post.body}}
+			</p>
+		</div>
+	</md-list-item>
+</md-list>

@@ -1,0 +1,13 @@
+<div class="slider">
+    <div class="slide" ng-repeat="slide in slides" ng-show="slide.visible">
+        <span>{{::slide.title}}</span>
+    </div>
+    <div class="arrows" layout="row" layout-align="space-between center">
+        <md-button class="md-fab left-arrow" aria-label="Prev" ng-click="prev()">
+            <md-icon md-svg-src="images/left.svg"></md-icon>
+        </md-button>
+        <md-button class="md-fab left-arrow" aria-label="Next" ng-click="next()">
+            <md-icon md-svg-src="images/right.svg"></md-icon>
+        </md-button>
+    </div>
+</div>

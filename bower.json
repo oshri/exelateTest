@@ -1,0 +1,32 @@
+{
+  "name": "exelate",
+  "version": "0.0.0",
+  "description": "Exelate Test",
+  "authors": [
+    "Oshri Kdoshim"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular-mocks": "~1.3.8",
+    "sinon": "http://sinonjs.org/releases/sinon-1.12.1.js",
+    "bardjs": "~0.0.8"
+  },
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "angular": "~1.3.x",
+    "angular-sanitize": "~1.3.8",
+    "angular-ui-router": "~0.2.13",
+    "angular-animate": "~1.3.8",
+    "angular-loading-bar": "^0.8.0",
+    "angular-material": "~0.10.0"
+  },
+  "resolutions": {
+    "angular": "1.3.20"
+  }
+}

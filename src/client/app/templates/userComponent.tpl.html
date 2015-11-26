@@ -1,0 +1,7 @@
+<div class="user-item" layout="row" layout-align="space-between center">
+	<img ng-src="{{::userData.picture.thumbnail}}" flex="10">
+	<md-button md-no-ink class="md-primary" flex ui-sref="user({ id: userData.id })">
+		{{::fullName}} 
+	</md-button>
+	<span flex>{{::userData.website}}</span>
+</div>

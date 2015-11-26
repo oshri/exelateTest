@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "gender": "male",
+        "name": {
+            "title": "mr",
+            "first": "armando",
+            "last": "chapman"
+        },
+        "website":"http://exelate.com/",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/40.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/40.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/40.jpg"
+        }
+    },
+    {
+        "id": 2,
+        "gender": "male",
+        "name": {
+            "title": "mr",
+            "first": "tristan",
+            "last": "bowman"
+        },
+        "website":"http://exelate.com/",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/89.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/89.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/89.jpg"
+        }
+    },
+    {
+        "id": 3,
+        "gender": "female",
+        "name": {
+            "title": "ms",
+            "first": "sarah",
+            "last": "howell"
+        },
+        "website":"http://exelate.com/",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/90.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/90.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/90.jpg"
+        }
+    },
+    {
+        "id": 4,
+        "gender": "female",
+        "name": {
+            "title": "mrs",
+            "first": "patricia",
+            "last": "gutierrez"
+        },
+        "website":"http://exelate.com/",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/22.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/22.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/22.jpg"
+        }
+    },
+    {
+        "id": 5,
+        "gender": "male",
+        "name": {
+            "title": "mr",
+            "first": "kurt",
+            "last": "burton"
+        },
+        "website":"http://exelate.com/",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/56.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/56.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/56.jpg"
+        }
+    },
+    {
+        "id": 6,
+        "gender": "male",
+        "name": {
+            "title": "mr",
+            "first": "matthew",
+            "last": "welch"
+        },
+        "website":"http://exelate.com/",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/37.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/37.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/37.jpg"
+        }
+    },
+    {
+        "id": 7,
+        "gender": "male",
+        "name": {
+            "title": "mr",
+            "first": "ramon",
+            "last": "barnes"
+        },
+        "website":"http://exelate.com/",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/84.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/84.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/84.jpg"
+        }
+    },
+    {
+        "id": 8,
+        "gender": "female",
+        "name": {
+            "title": "ms",
+            "first": "alice",
+            "last": "carroll"
+        },
+        "website":"http://exelate.com/",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/58.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/58.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/58.jpg"
+        }
+    },
+    {
+        "id": 9,
+        "gender": "male",
+        "name": {
+            "title": "mr",
+            "first": "allen",
+            "last": "lowe"
+        },
+        "website":"http://exelate.com/",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/19.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/19.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/19.jpg"
+        }
+    },
+    {
+        "id": 10,
+        "gender": "female",
+        "name": {
+            "title": "mrs",
+            "first": "rose",
+            "last": "rose"
+        },
+        "website":"http://exelate.com/",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/94.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/94.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/94.jpg"
+        }
+    }
+]

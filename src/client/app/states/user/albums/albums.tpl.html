@@ -1,0 +1,18 @@
+<md-progress-circular 
+		md-mode="{{albCtrl.loadingStatus}}" 
+		md-diameter="30"
+		ng-show="albCtrl.loading">
+</md-progress-circular>
+
+<md-list ng-cloak flex class="albums">
+	<md-list-item 	ng-repeat="album in albCtrl.albums" 
+					class="album" 
+					ng-click="albCtrl.openSlideShow($event,$index)">
+
+		<div layout="column" layout-align="space-around start">
+			<div flex class="title">
+				{{::album.title}}
+			</div>
+		</div>
+	</md-list-item>
+</md-list>

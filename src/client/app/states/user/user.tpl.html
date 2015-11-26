@@ -1,0 +1,31 @@
+<md-progress-circular 
+		md-mode="{{uCtrl.loadingStatus}}" 
+		md-diameter="30"
+		ng-if="uCtrl.loading">
+</md-progress-circular>
+<div class="user-state">
+	<div class="header" layout="row" layout-align="start center">
+		<img ng-src="{{::uCtrl.user.picture.medium}}" flex="10">
+		<h1 flex>{{::uCtrl.fullName}}<h1>
+	</div>
+	<div class="tabs">
+		<md-tabs 	md-stretch-tabs 
+	           		md-selected="uCtrl.selectedIndex"
+	           		md-autoselect
+	           		hide-sm>
+
+			<md-tab 	ng-repeat="tab in uCtrl.userTabs"
+						md-on-select="onTabSelected(tab)" 
+						md-on-deselect="announceDeselected(tab)" 
+						ng-disabled="tab.disabeld">
+				<md-tab-label>
+					<span>{{::tab.title}}</span>
+				</md-tab-label>
+			</md-tab> 
+			 
+	  	</md-tabs>
+	  	<md-content flex layout-padding ui-view md-right>
+
+	  	</md-content>
+	</div>
+</div>
